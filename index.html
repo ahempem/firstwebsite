@@ -1,5 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+      color: rgb(233, 233, 233);
+    }
+
+    .tooltip .tooltip-text {
+      visibility: hidden;
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 6px 10px;
+      border-radius: 4px;
+      position: absolute;
+      bottom: 125%; /* positions it above the element */
+      left: 50%;
+      transform: translateX(-50%);
+      white-space: nowrap;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .tooltip:hover .tooltip-text {
+      visibility: visible;
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <span class="tooltip">
+  hover over me
+    <span class="tooltip-text"> there's more you can see</span>
+  </span>
+
+</body>
+</html>
 <head>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
@@ -7,12 +49,45 @@
     <title>Document</title>
 </head>
 <body>
-    <h1> hi! </h1>
+    <h1> you do not have to be good
+        <p> you do not have to improve </p>
+    </h1>
 
-</body>
+    <img src="./images/sky.JPG" alt="Description of image">
+
+    <p> the sun is a legend for keeping us warm </p>
+    <p> but you have no intention of staying until dawn</p>
+    <p> lavender, red-bull, laundry, hair </p>
+    <p> a plush toy from my most recent too long ago </p>
+    <p> something you made with your hands </p>
+    <p> can't be made for me to understand </p>
+    <p> but something i crafted in my sleep </p>
+    <p> something clean, non-messy, sterile </p>
+    <p> something that is real neat</p>
+    <p> a presentable present (why is tidy good?) </p>
+    <p> help me understand </p>
+    <p> can i be good?</p>
+   
+    <h2> YOU DO NOT HAVE TO BE GOOD </h2>
+    <h4> is it bad to want to ? </h4>
+
+  <span class="tooltip">
+  do you want me to ?
+    <span class="tooltip-text"> am i fooling you? </span>
+  </span>
+
+
+    <h2> NOTHING IS REALLY THAT GOOD </h2>
+
+
 
 <img src="./images/chairs.jpeg" alt="Description of image">
 
+        <li><a href="index.html">Home</a></li>
+          <li><a href="more2.html">more2</a></li>
+    </ul>
+
+</body>
 
 
 </html>
