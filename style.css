@@ -6,8 +6,8 @@ body {
 }
 
 img {
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    height: 100px;
 }
 
 h4 {
@@ -16,3 +16,17 @@ h4 {
     text-align : center;
     margin-top: 50px;
 }
+
+h3 {
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    text-align : left;
+    margin-top: 50px;
+}
+
+h6 {
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    text-align : right;
+    margin-top: 50px;
+} 
